@@ -84,7 +84,7 @@ Chúng ta đã thực hiện 3 thử nghiệm lớn để tìm ra pipeline tốt
 
 #### Thử nghiệm 1: Baseline (Model A) vs. Fine-tuning (Model B)
 
-* **Model A (Gốc):** Dùng mô hình `paraphrase-multilingual...` có sẵn.
+* **Model A (Gốc):** Dùng mô hình `paraphrase-multilingual-mpnet-base-v2` có sẵn.
 * **Model B (Fine-tuned):** Dạy lại (fine-tune) Model A trên dữ liệu của chúng ta bằng `TripletLoss` trong 1 epoch.
 * **Kết quả:** Model B thắng (Recall@5: **10.4%** vs 8.5% của Model A).
 * **Quyết định:** Fine-tuning hiệu quả. Chúng ta chọn **Model B** làm nền tảng.
