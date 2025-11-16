@@ -11,7 +11,7 @@
 
 1.  Clone repo này:
     `git clone [ĐƯỜNG DẪN REPO CỦA BẠN]`
-2.  Tải các thư mục `models/`, `artifacts/`, và `data/` từ [LINK GOOGLE DRIVE NÀY]
+2.  Tải các thư mục `models/`, `artifacts/`, và `data/` từ [https://drive.google.com/drive/folders/1hF5g3O0jhlZWub8uw-WYuMIMG1X5Pvv1?usp=drive_link]
 3.  Đặt các thư mục đó vào thư mục project sao cho cấu trúc giống như sau:
     ```
     /project/
